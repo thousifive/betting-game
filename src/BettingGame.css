@@ -1,0 +1,82 @@
+.MuiButton-outlined {
+  border-color: black !important;
+}
+
+.container {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.title {
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.balance {
+  color: #2E8A99;
+}
+
+.time-left {
+  font-weight: 600;
+  color: blue;
+}
+
+.won-lost {
+  display: flex;
+  gap: 10px;
+}
+
+.won {
+  color: green;
+}
+
+.lost {
+  color: red;
+}
+
+.dice-board {
+  display: inline-grid;
+  grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 150px 150px 150px;
+  grid-gap: 80px;
+}
+
+.disable {
+  opacity: 0.5;
+}
+
+.dice {
+  border: 1px solid;
+  border-radius: 6px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 80px;
+  object-fit: contain;
+}
+
+.bet-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.winner-round {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}

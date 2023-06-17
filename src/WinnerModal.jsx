@@ -34,6 +34,7 @@ const WinnerModal = ({openModal, handleClose, winner, timer, diceImages, curRoun
             </Typography>
             <Typography
               id="modal-modal-description"
+              component="div"
               sx={{
                 mt: 2,
                 display: "flex",
